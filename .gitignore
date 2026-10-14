@@ -1,0 +1,28 @@
+# Environment secrets / personal machine settings
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Install/build/test byproducts
+**/node_modules/
+**/build/
+**/dist/
+**/coverage/
+**/.cache/
+**/.DS_Store
+**/Thumbs.db
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+/Backend/public/images/*
+!/Backend/public/images/.gitkeep
+# Editor temporary files
+.vscode/
+.idea/
+*.code-workspace
+*tempCodeRunnerFile*
+backend
+frontend
